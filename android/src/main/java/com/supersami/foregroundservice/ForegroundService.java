@@ -4,6 +4,7 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.Service;
 import android.app.ServiceInfo;
+import android.content.pm.ServiceInfo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -80,7 +81,7 @@ public class ForegroundService extends Service {
                 .getInstance(getApplicationContext())
                 .buildNotification(getApplicationContext(), notificationConfig);
 
-            startForeground(id, notification, ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION);
+            startForeground(id, notification,  1 << 2);
 
             running += 1;
 

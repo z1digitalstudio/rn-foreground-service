@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-"@supersami/rn-foreground-service@https://github.com/Raja0sama/rn-foreground-service#v2":
-  version "1.0.4"
-  resolved "https://github.com/Raja0sama/rn-foreground-service#2da73db49422198de587e6720e01e25219ea93b2"
+"@supersami/rn-foreground-service@https://github.com/z1digitalstudio/rn-foreground-service.git":
+  version "2.1.0"
+  resolved "https://github.com/z1digitalstudio/rn-foreground-service.git#1ab7d1f99ae840f0a08d347de441cd07c9d77046"
